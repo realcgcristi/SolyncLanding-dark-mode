@@ -44,7 +44,7 @@
     ];
 
     const unicornSetup = {
-        bg: '/solync_footer.json',
+        bg: '/solync_footer_center.json',
         bgPlaceholder: '/images/waves-dark.png'
     };
 
@@ -139,8 +139,8 @@
             <p class="text-white">Made with <span class="pulse text-red-400">&#10084;</span> in Texas</p>
         </section>
     </div>
-    <div class="bg-deepblack h-[15vh] min-h-24 w-full md:h-[33dvh] md:min-h-56">
-        <div bind:this={embedEl} class="h-full w-full" data-us-scale="0.75"></div>
+    <div class="bg-deepblack relative aspect-[4.25/1] min-h-56 w-full overflow-hidden">
+        <div bind:this={embedEl} class="absolute inset-0 h-full w-full" data-us-scale="0.75"></div>
     </div>
 </footer>
 
